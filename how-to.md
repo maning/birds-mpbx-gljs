@@ -37,13 +37,13 @@ This step-by-step guide will walk you through your first webmap powered bvy Mapb
 
 * To start creating your first map, go to: https://www.mapbox.com/install/
 
-![](pick_platform.png)
+![](img/pick_platform.png)
 
 * In the **Pick platform** step, select **JS**
 
 * In the **Pick method** step, choose the **Use the Mapbox CDN**
 
-![](pick_method)
+![](img/pick_method.png)
 
 * Copy the GL JS JavaScript and CSS files in the <head> of your HTML file.
 
@@ -52,7 +52,7 @@ This step-by-step guide will walk you through your first webmap powered bvy Mapb
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.css' rel='stylesheet' />
 ```
 
-![](install_js.png)
+![](img/install_js.png)
 
 
 * Add the following code to the <body> of your HTML file.
@@ -68,15 +68,15 @@ This step-by-step guide will walk you through your first webmap powered bvy Mapb
 </script>
 ```
 
-![](create_map.png)
+![](img/create_map.png)
 
 * Open your `index.html` in your browser.
 
-# Adding controls to ylur mapbox map.
+# [wip] Adding controls to your mapbox map.
 
-# Loading GeoJSOn file to your map.
+# [wip] Loading GeoJSOn file to your map.
 
-# Adding interactivity to your map.
+# [wip] Adding interactivity to your map.
 
 ## cluster
 ## icon by type
