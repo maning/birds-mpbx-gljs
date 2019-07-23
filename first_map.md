@@ -67,3 +67,10 @@ This step-by-step guide will walk you through your first webmap powered bvy Mapb
 * Open your `index.html` in your browser.
 
 ![](img/my_first_map.gif)
+
+**Congratulations you have just made you first map!**
+
+* Before we move to the next section, inspect your code and add the following:
+  * Make the map occupy the whole browser. 
+  * Make the initial map view to focus to to the Philippines.
+  * Display the navigation controls to the map like zoom and rotation.  Follow [this example](https://docs.mapbox.com/mapbox-gl-js/example/navigation/).
