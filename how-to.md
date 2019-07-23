@@ -72,6 +72,8 @@ This step-by-step guide will walk you through your first webmap powered bvy Mapb
 
 * Open your `index.html` in your browser.
 
+![](img/my_first_map.gif)
+
 # [wip] Adding controls to your mapbox map.
 
 # [wip] Loading GeoJSOn file to your map.
