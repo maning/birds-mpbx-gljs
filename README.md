@@ -10,4 +10,12 @@ For an overview of how Mapbox works, visit **https://docs.mapbox.com/help/how-ma
 
 * [Creating your first Mapbox map](first_map.md).
 * [Loading external GeoJSON file to your map](loading_geojson.md).
-* [WIP] [Adding interactivity to your map](popup_cluster.md).
+* [Adding interactivity to your map](popup_cluster.md).
+
+
+Thank you to @ralleon for feedback and comments in the preparation of this workshop materials!
+
+**Meta**
+
+* Workshop presented to Pista ng Mapa 2019 in Dumaguete, Philippines.
+* https://ti.to/pistangmapa/2019
