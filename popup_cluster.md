@@ -24,8 +24,7 @@ new mapboxgl.Popup()
 });
 
 ```
-The above code does the following:
-* When a click event occurs on a feature in the birds layer, open a popup at the
+The above code does the following: when a click event occurs on a feature in the birds layer, open a popup at the
 location of the feature, with description HTML from its properties.
 
 * Save your `index.html` and open the file in your browser.
