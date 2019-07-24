@@ -1,4 +1,4 @@
-# Overview
+# Creating your first Mapbox map
 This tutorial will guide you to creating your first map powered by Mapbox GL JS using 
 the Mapbox interactive tutorial.
 

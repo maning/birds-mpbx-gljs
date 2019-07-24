@@ -1,4 +1,5 @@
-# Overview
+# Loading external GeoJSON file to your map
+
 This tutorial will guide you to adding custom data into your Mapbox map.
 We will add a point layer of threatened birds in the Philippines from 
 an external GeoJSON and customize the symbols of each point based on their IUCN status.
