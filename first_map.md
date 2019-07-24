@@ -43,7 +43,7 @@ the Mapbox interactive tutorial.
 
 * Copy the GL JS JavaScript and CSS files in the <head> of your HTML file then click **Next**.
 
-```
+```html
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.css' rel='stylesheet' />
 ```
@@ -53,7 +53,7 @@ the Mapbox interactive tutorial.
 
 * Add the following code to the <body> of your HTML file.
 
-```
+```javascript
 <div id='map' style='width: 400px; height: 300px;'></div>
 <script>
   mapboxgl.accessToken = <your_access_token>;

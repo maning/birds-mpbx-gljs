@@ -16,7 +16,7 @@ The original list was converted to [GeoJSON](https://geojson.org/).  Each point 
 
 An example of the GeoJSON is below:
 
-```
+```javascript
 {
       "type": "Feature",
       "properties": {
@@ -43,7 +43,7 @@ object to get fetch the file and display them into your map.
 * Open your `index.html` to a text editor.
 * Add the following code to after the xxx.
 
-```
+```javascript
   map.on('load', function() {
   var url = 'https://raw.githubusercontent.com/maning/birds-mpbx-gljs/master/data/bird.geojson';
     map.addSource('birds', { type: 'geojson', data: url});
@@ -69,7 +69,7 @@ we can style the data based on its properties.
 
 * In your text editor, delete the `"layout": {"icon-image": "rocket-15"}` section of the code and copy the following:
 
-```
+```javascript
     'paint': {
         'circle-radius': {
           'base': 1.75,
