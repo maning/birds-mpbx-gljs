@@ -1,4 +1,5 @@
 # Creating your first Mapbox map
+
 This tutorial will guide you to creating your first map powered by Mapbox GL JS using 
 the Mapbox interactive tutorial.
 
@@ -41,7 +42,8 @@ the Mapbox interactive tutorial.
 
 ![](img/pick_method.png)
 
-* Copy the GL JS JavaScript and CSS files in the <head> of your HTML file then click **Next**.
+* Copy the GL JS JavaScript and CSS files shown in the **Install** in the <head> of your HTML file 
+similar to the code below then click **Next**.
 
 ```html
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.js'></script>
@@ -51,7 +53,7 @@ the Mapbox interactive tutorial.
 ![](img/install_js.png)
 
 
-* Add the following code to the <body> of your HTML file.
+* Add the code shown in the **Create a map** to the <body> of your HTML file similar to the code below.
 
 ```javascript
 <div id='map' style='width: 400px; height: 300px;'></div>

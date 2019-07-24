@@ -1,4 +1,4 @@
-# Adding interactivity to your map (information pop-up and data clustering).
+# Adding interactivity to your map (information pop-up and data clustering)
 
 This tutorial will guide you to adding information popups to your map and 
 improve the visual style of the data using clustering. 

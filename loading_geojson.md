@@ -42,7 +42,7 @@ An example of the GeoJSON is below:
 object to get fetch the file and display them into your map.
 
 * Open your `index.html` to a text editor.
-* Add the following code to after the xxx.
+* Add the following code to after the `var map ...` section.
 
 ```javascript
   map.on('load', function() {
