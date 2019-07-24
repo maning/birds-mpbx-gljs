@@ -31,7 +31,14 @@ location of the feature, with description HTML from its properties.
 
 ![](img/pop_up.gif)
 
-## [WIP] Clustering
+## Clustering
+
+
+![](img/overlapping_circles.png)
+
+![](img/clustered.png)
+
+![](img/clustered_popup.gif)
 
 Congratulations!  You have just added and styled an external data into your Mapbox map!
 
@@ -40,3 +47,4 @@ Congratulations!  You have just added and styled an external data into your Mapb
 
 * [Display a popup on click](https://docs.mapbox.com/mapbox-gl-js/example/popup-on-click/)
 * [Show polygon information on click](https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/)
+* [Create and style clusters](https://docs.mapbox.com/mapbox-gl-js/example/cluster/)
