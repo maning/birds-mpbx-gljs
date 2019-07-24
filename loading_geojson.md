@@ -57,9 +57,9 @@ object to get fetch the file and display them into your map.
   });
 ```
 
-![](img/load_geojson.png)
-
 * Save your `index.html` and open in your browser.
+
+![](img/load_geojson.png)
 
 ## Changing the style of your points using data-driven styling
 
@@ -101,8 +101,8 @@ The above code does the following:
 
 Congratulations!  You have just added and styled an external data into your Mapbox map!
 Before we move to the next section inspect your code and experiment with various circle size (`circle-radius`) and colors (`circle-color`).
-Check out the [Mapbox GL JS expressions tutorial](https://docs.mapbox.com/help/tutorials/mapbox-gl-js-expressions/) for hints and examples.
 
+Check out the [Mapbox GL JS expressions tutorial](https://docs.mapbox.com/help/tutorials/mapbox-gl-js-expressions/) for hints and examples.
 
 ## See also
 
