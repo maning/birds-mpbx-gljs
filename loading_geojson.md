@@ -68,7 +68,9 @@ We can improve the styling of the bird sighting by changing colors of each point
 Using the [data-driven styling available in Mapbox GL JS](https://docs.mapbox.com/help/glossary/data-driven-styling/), 
 we can style the data based on its properties.
 
-* In your text editor, delete the `"layout": {"icon-image": "rocket-15"}` section of the code and copy the following:
+* In your text editor, change the `type` from `symbol` to `circle`.  This line  `"type": "symbol",` to this ` "type": "circle",`. 
+
+* Delete the `"layout": {"icon-image": "rocket-15"}` section of the code and copy the following:
 
 ```javascript
     'paint': {
