@@ -139,8 +139,7 @@ new mapboxgl.Popup()
 
 ![](img/clustered_popup.gif)
 
-Congratulations!  You have finished our map! Inspect your code and experiment with different `circle-color` and `circle-size`
-you think are visually pleasing to your clusters.
+Congratulations!  You have finished our map! Inspect your code and experiment with [different `circle-*`  options](https://docs.mapbox.com/mapbox-gl-js/style-spec/#layers-circle) to make your clusters and symbols more appealing.
 
 ## See also
 
