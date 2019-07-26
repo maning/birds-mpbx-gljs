@@ -53,7 +53,7 @@ similar to the code below then click **Next**.
 ![](img/install_js.png)
 
 
-* Add the code shown in the **Create a map** to the <body> of your HTML file similar to the code below.
+* Add the code shown in the **Create a map** to the `<body>` of your HTML file similar to the code below.
 
 ```javascript
 <div id='map' style='width: 400px; height: 300px;'></div>
