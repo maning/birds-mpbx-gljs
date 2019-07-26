@@ -6,7 +6,7 @@ improve the visual style of the data using clustering.
 ## Displaying popup to show data information on click. 
 
 * Open your `index.html` in your text editor. 
-* Add the following code within your script, after the `circle-color` expressions
+* Add the following code within your script, after the `map.on('load', function()` code block. 
 
 ```javascript
 
