@@ -6,7 +6,7 @@ an external GeoJSON and customize the symbols of each point based on their IUCN 
 
 ## About the data
 
-The [birds data is available in this repo](data/birds.geojson) is IUCN's List of Threatened Birds 
+The [birds data](data/birds.geojson) is IUCN's List of Threatened Birds 
 in the Philippines from [Birdlife's Red Data Book](https://web.archive.org/web/20060202013628/http://www.rdb.or.id/) (2005).
 The original list was converted to [GeoJSON](https://geojson.org/).  Each point has the following properties:
 
@@ -105,7 +105,7 @@ The above code does the following:
 Congratulations!  You have just added and styled an external data into your Mapbox map!
 Before we move to the [next section](popup_cluster.md) inspect your code and experiment with various circle size (`circle-radius`) and colors (`circle-color`).
 
-Check out the [Mapbox GL JS expressions tutorial](https://docs.mapbox.com/help/tutorials/mapbox-gl-js-expressions/) for hints and examples.
+Explore the [Mapbox GL JS expressions tutorial](https://docs.mapbox.com/help/tutorials/mapbox-gl-js-expressions/) for hints and examples.
 
 ## See also
 
