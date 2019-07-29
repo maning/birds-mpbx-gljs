@@ -4,11 +4,12 @@ This tutorial will guide you to creating your first map powered by Mapbox GL JS 
 the Mapbox interactive tutorial.
 
 ## Creating a mapbox account
-* Sign-up for a mapbox account at: https://account.mapbox.com/auth/signup/
+* Sign-up for a mapbox account at: [https://account.mapbox.com/auth/signup/
+](https://account.mapbox.com/auth/signup/)
 
 ![](img/signup_page.png)
 
-* If you have an existing Mapbox account, go to https://account.mapbox.com/
+* If you have an existing Mapbox account, go to [https://account.mapbox.com/](https://account.mapbox.com/)
 
 ## Creating a blank html page 
 
@@ -32,7 +33,7 @@ the Mapbox interactive tutorial.
 
 ## Creating your first Mapbox map
 
-* To start creating your first map, go to: https://www.mapbox.com/install/
+* To start creating your first map, go to: [https://www.mapbox.com/install/](https://www.mapbox.com/install/)
 
 ![](img/pick_platform.png)
 
@@ -74,7 +75,7 @@ similar to the code below then click **Next**.
 
 **Congratulations you have just made you first Mapbox map!**
 
-* Before we move to the next section, inspect your code and add the following:
+* Before we move to the [next section](loading_geojson.md), inspect your code and add the following:
   * Make the map occupy the full width of your browser.
   * Make the initial map view to focus to the Philippines.
   * Display the navigation controls to the map such as zoom and rotation buttons.
