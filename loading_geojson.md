@@ -1,6 +1,6 @@
 # Loading external GeoJSON file to your map
 
-This tutorial will guide you to adding custom data into your Mapbox map.
+This section will guide you to adding custom data into your Mapbox map.
 We will add a point layer of threatened birds in the Philippines from 
 an external GeoJSON and customize the symbols of each point based on their IUCN status.
 
@@ -103,7 +103,7 @@ The above code does the following:
 ![](img/circle_style.png)
 
 Congratulations!  You have just added and styled an external data into your Mapbox map!
-Before we move to the next section inspect your code and experiment with various circle size (`circle-radius`) and colors (`circle-color`).
+Before we move to the [next section](popup_cluster.md) inspect your code and experiment with various circle size (`circle-radius`) and colors (`circle-color`).
 
 Check out the [Mapbox GL JS expressions tutorial](https://docs.mapbox.com/help/tutorials/mapbox-gl-js-expressions/) for hints and examples.
 
