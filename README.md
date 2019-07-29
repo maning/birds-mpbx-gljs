@@ -1,9 +1,9 @@
 # Creating interactive maps using Mapbox GLJS
 
-This is a step-by-step guide for creating a fully interactive map using Mapbox GL JS.
+This is a step-by-step guide for creating a fully interactive map using **[Mapbox](https://www.mapbox.com/) GL JS**.
 We will use IUCN's List of Endangered Birds in the Philippines from 
 [Birdlife's Red Data Book](https://web.archive.org/web/20060202013628/http://www.rdb.or.id/) (2005)
-of threatened birds sightings throughout the country.
+of threatened birds sightings.
 
 For an overview of about Mapbox, visit **[https://docs.mapbox.com/help/how-mapbox-works/](https://docs.mapbox.com/help/how-mapbox-works/)**
 
@@ -19,3 +19,5 @@ Thank you to @ralleon for feedback and comments in the preparation of this works
 ### Meta
 
 * Workshop presented to **[Pista ng Mapa 2019](https://ti.to/pistangmapa/2019) in Dumaguete, Philippines**.
+
+![](img/PnM_Marketing_Slide_10k.png)
