@@ -43,7 +43,7 @@ the Mapbox interactive tutorial.
 
 ![](img/pick_method.png)
 
-* Copy the GL JS JavaScript and CSS files shown in the **Install** in the <head> of your HTML file 
+* Copy the GL JS JavaScript and CSS files shown in the **Install** in the `<head>` of your HTML file 
 similar to the code below then click **Next**.
 
 ```html
