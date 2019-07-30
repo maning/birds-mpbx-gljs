@@ -77,7 +77,7 @@ we can style the data based on its properties.
 * Delete the `"layout": {"icon-image": "rocket-15"}` section of the code and copy the following:
 
 ```javascript
-    'paint': {
+    paint: {
         'circle-radius': {
           'base': 1.75,
           'stops': [[12, 3], [22, 180]]
