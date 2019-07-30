@@ -50,28 +50,28 @@ map.addSource('birds', { type: 'geojson',
                              clusterRadius: 30 });
 ```
 
-This change activates the clustering option to your GeoJSON with a max zoom to cluster points on z12 and 
+This activates the clustering option to your GeoJSON with a max zoom to cluster points at z12 and 
 the radius of each cluster when clustering points.
 
 * Add the following code, after preceding the  `map.addSource`.
 
 ```javascript
-    map.addLayer({
-      id: "clusters",
-      type: "circle",
-      source: "birds",
-      filter: ["has", "point_count"],
+map.addLayer({
+      id: 'clusters',
+      type: 'circle',
+      source: 'birds',
+      filter: ['has', 'point_count'],
       paint: {
-        "circle-color": [
-          "step",
-          ["get", "point_count"],
-          "#51bbd6",50,
-          "#f1f075",100,
-          "#f28cb1"
+        'circle-color': [
+          'step',
+          ['get', 'point_count'],
+          '#51bbd6',50,
+          '#f1f075',100,
+          '#f28cb1'
         ],
-        "circle-radius": [
-          "step",
-          ["get", "point_count"],
+        'circle-radius': [
+          'step',
+          ['get', 'point_count'],
           20,50,
           30,100,
           40
@@ -81,12 +81,12 @@ the radius of each cluster when clustering points.
 
 ```
 
-This code uses the [step expressions](https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
+The above code uses the [step expressions](https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
 to style clustered points with three types of circles:
 
 * Blue, 20px circles when point count is less than 50
 * Yellow, 30px circles when point count is between 50 and 100
-* Pink, 40px circles when point count is greater than or equal to 150
+* Pink, 40px circles when point count is greater than or equal to 100
 
 * Save your `index.html` and open the file in your browser.
 
@@ -95,44 +95,46 @@ to style clustered points with three types of circles:
 * Finally, change your earlier point style to show colors for unclustered points by its status and show pop-up.
 
 ```javascript
-    map.addLayer({
-      "id": "unclustered-point",
-      "type": "circle",
-      "source": "birds",
-      "filter": ["!", ["has", "point_count"]],
-      'paint': {
-        'circle-radius': {
-          'base': 1.75,
-          'stops': [[10, 5], [16, 50]]
-        },
-        'circle-color': [
-          'match',
-          ['get', 'status'],
-          'CR', '#fbb03b',
-          'DD', '#223b53',
-          'EN', '#e55e5e',
-          'Nt', '#3bb2d0',
-          'VUL','#fb9a99',
-          /* other */ '#000'
-        ],
-        "circle-stroke-width": 1,
-        "circle-stroke-color": "#fff"
-      }
-    });
+map.addLayer({
+          id: 'unclustered-point',
+          type: 'circle',
+          source: 'birds',
+          filter: ['!', ['has', 'point_count']],
+          paint: {
+            'circle-radius': {
+              'base': 1.75,
+              'stops': [
+                [12, 3],
+                [22, 180]
+              ]
+            },
+            'circle-color': [
+              'match', ['get', 'status'],
+              'CR', '#fbb03b',
+              'DD', '#223b53',
+              'EN', '#e55e5e',
+              'Nt', '#3bb2d0',
+              'VUL', '#fb9a99',
+              /* other */
+              '#000'
+            ]
+          }
+        });
 
-map.on('click', 'unclustered-point', function (e) {
-var coordinates = e.features[0].geometry.coordinates.slice();
-var description = e.features[0].properties.en_name;
+      });
+      map.on('click', 'unclustered-point', function(e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.en_name;
 
-while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-}
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
 
-new mapboxgl.Popup()
-.setLngLat(coordinates)
-.setHTML(description)
-.addTo(map);
-});
+        new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(description)
+          .addTo(map);
+      });
 ```
 
 * Save your `index.html` and open the file in your browser.
