@@ -42,20 +42,24 @@ An example of the GeoJSON is below:
 object to get fetch the file and display them into your map.
 
 * Open your `index.html` to a text editor.
-* Add the following code to after the `var map ...` section.
+* Add the following code to after the `var map ... });` section.
 
 ```javascript
-  map.on('load', function() {
-  var url = 'https://raw.githubusercontent.com/maning/birds-mpbx-gljs/master/data/bird.geojson';
-    map.addSource('birds', { type: 'geojson', data: url});
-    map.addLayer({
-      "id": "birds",
-      "type": "symbol",
-      "source": "birds",
-      "layout": {
-      "icon-image": "rocket-15"
-      }
-  });
+      map.on('load', function() {
+        var url = 'https://raw.githubusercontent.com/maning/birds-mpbx-gljs/master/data/bird.geojson';
+        map.addSource('birds', {
+          type: 'geojson',
+          data: url
+        });
+        map.addLayer({
+          id: 'birds',
+          type: 'symbol',
+          source: 'birds',
+          layout: {
+            'icon-image': 'rocket-15'
+          }
+        });
+     });
 ```
 
 * Save your `index.html` and open in your browser.
@@ -68,7 +72,7 @@ We can improve the styling of the bird sighting by changing colors of each point
 Using the [data-driven styling available in Mapbox GL JS](https://docs.mapbox.com/help/glossary/data-driven-styling/), 
 we can style the data based on its properties.
 
-* In your text editor, change the `type` from `symbol` to `circle`.  This line  `"type": "symbol",` to this ` "type": "circle",`. 
+* In your text editor, change the layer `type` from `symbol` to `circle`.  This line  `"type": "symbol",` to this ` "type": "circle",`. 
 
 * Delete the `"layout": {"icon-image": "rocket-15"}` section of the code and copy the following:
 
@@ -96,7 +100,6 @@ The above code does the following:
 * replaces the rocket symbol to a circle icon;
 * make circles larger as the user zooms from z12 to z22;
 * style circle color based on the `status` property. For example, the `CR` status is colored `#fbb03b`.
-
 
 * Save your `index.html` and open the file in your browser.
 
