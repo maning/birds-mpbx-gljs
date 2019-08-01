@@ -7,7 +7,7 @@ of threatened birds sightings.
 
 For an overview of about Mapbox, visit **[https://docs.mapbox.com/help/how-mapbox-works/](https://docs.mapbox.com/help/how-mapbox-works/)**
 
-**Yes! We are [hiring](https://www.mapbox.com/careers/)!**
+## Yes! We are [hiring](https://www.mapbox.com/careers/)!
 
 ## Contents
 
